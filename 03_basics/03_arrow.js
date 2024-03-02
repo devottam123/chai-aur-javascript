@@ -22,8 +22,6 @@ const user = {
 
 // chai()
 
-// this doesn't work in Basic function
-
 // const chai = function () {
 //     let username = "hitesh"
 //     console.log(this.username);
