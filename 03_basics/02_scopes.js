@@ -54,7 +54,7 @@ console.log(addone(5))
 function addone(num) {
     return num + 1
 }
-//Basic function are hoisted 
+//Basic functions are hoisted 
 
 // Expression of Function
 console.log(addTwo(5));

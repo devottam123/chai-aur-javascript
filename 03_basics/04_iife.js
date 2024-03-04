@@ -1,5 +1,5 @@
 // Immediately Invoked Function Expression
-// VVIP: Always stop a IIFE with a ';' as doesn't know where to stop it's execution.
+// VVIP: Always stop a IIFE with a ';' as it doesn't know where to stop it's execution.
 
 // Named IIFE, since it has a name 'chai'
 (function chai(){
@@ -12,3 +12,4 @@
 })('Devottam');
 
 // chai()
+
