@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head> 
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning on Chai aur Code <span style="display: none;">test text</span></h1>
+        <h2>Lorem, ipsum dolor.</h2>
+        <h2>Lorem, ipsum dolor.</h2>
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li> 
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body> 
+
+
+<!-- DOM Methods -->
+<!-- 1) document.getElementById('/idname/') -->
+<!--    document.getElementById('/idname/').id => to select id of that element -->
+<!--    document.getElementById('/idname/').className => to select class of that element -->
+
+<!-- 2) document.getElementById('/idname/').getAttribute("/attributename/") => To give attribute's name of the tag in that selected element. -->
+
+<!-- 3) document.getElementById('title').setAttribute('class', 'test') => to set the value of the attribute, it always overwrite the previous value.-->
+
+<!-- 4) document.getElementById('/idname/').style.backgroundColor = 'green' => to set the inline style of the element-->
+<!--    document.getElementById('/idname/').style.padding = '15px' -->
+
+<!-- 5) document.getElementById('/idname/').innerHTML => gives the inner HTML of the particular element-->
+<!--    document.getElementById('/idname/').innerText => gives the inner text without hidden one -->
+<!--    document.getElementById('/idname/').textContent => gives the inner text with hidden one -->
+
+<!-- 6) document.getElementById('/idname/').getElementByClassName('heading') -->
+
+<!-- 7) document.querySelector('h2') => querySelector selects the elements by using CSS tags, classes, ids etc.-->
+<!--    document.querySelector('.heading') => querySelector selects the elements by using CSS tags, classes, ids etc. -->
+<!--    document.querySelector('#title') => querySelector selects the elements by using CSS tags, classes, ids etc. -->
+<!--    document.querySelector('input[type="password"]') => querySelector selects the elements by using CSS tags, classes, ids etc. -->
+<!--    document.querySelector('p:first-child') => querySelector selects the elements by using CSS tags, classes, ids etc. -->
+
+<!-- 8) document.querySelectorAll('li') => gives NodeList(it is an pure array, likewise HTMLCollection is also not a pure array) in which all the queries are given as an output. -->
+<!-- In Nodelist, select the elements by their index, for eg, 
+        myH1[0].style.color = 'green' -->
+
+<!-- 9) Array.from(/HTMLCollectio Name/) => Converts a HTML Collection into an array. -->
