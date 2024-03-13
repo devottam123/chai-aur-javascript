@@ -1,3 +1,4 @@
+// Promises and fetch() in JS
 const promiseOne = new Promise(function(resolve, reject){
     // Do an async task
     //DB calls, cryptography, network 
@@ -171,3 +172,5 @@ fetch('https://api.github.com/users/devottam123')
 .catch( (error) => {
     console.log(error);
 } )
+
+// fetch() will always be executed first because it goes in high priority queue...it's working is in the diagrams in fetch() working folder.
