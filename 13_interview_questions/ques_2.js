@@ -13,6 +13,7 @@ myArr.customForEachOne( function (val1, val2, val3){
     console.log(val1, val2, val3)
 } )
 
+// SDE-2,3 Method
 Array.prototype.forEachTwo = function (callback, thiscontext) {
     if(typeof callback !== 'function'){
         throw `not a function`        
